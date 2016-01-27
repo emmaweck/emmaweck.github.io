@@ -1,0 +1,29 @@
+body {
+text-align: center;
+background: url("https://scontent-iad3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/531245_10151019650948626_833456143_n.jpg?oh=5a5dce904ee0d9bba36f2cc32ff5c89e&oe=57274670");
+background-size: cover;
+border: 5px solid white;
+}
+
+h1 {
+	color: black;
+	font-family: Century Gothic;
+	font-size: 50px;
+	text-transform: uppercase;
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+
+h2 {
+	color: white;
+font-family: Century Gothic;
+text-transform: uppercase;
+padding-top: 40px;
+}
+
+p {
+	color: white;
+font-family: Century Gothic;
+padding-top: 40px;
+padding-bottom: 15px
+}
