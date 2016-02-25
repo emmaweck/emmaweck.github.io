@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body {
+	text-align: center;
+	background-color: #B6C3D6;
+	font-size: 16px;
+	padding: 0 auto;
+}
+header {
+	
+}
+h1 {
+	color: black;
+	font-family: "Arial", sans-serif; 
+	font-size: 6.25em;
+	line-height: 60%;
+}
+#firstname {
+	font-family: "Satisfy"; 
+	font-size: 14.3em;
+	color: #45454C;
+	line-height: 15%
+}
+
+#lastname {
+	font-family: "Montserrat";
+	font-size: 5em;
+	text-transform: uppercase;
+	line-height: 0%
+}
+
+h2 {
+	color: black;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1em;
+	padding: 1.3em 0 1.3em 0;
+	font-weight: 700;
+	line-height: 75%;
+}
+
+hr {
+	border: none; 
+	height: .2em; 
+	background-color: #45454C;
+	width: 16em;
+	margin: 2em auto; 
+
+}
+footer {
+	padding: 2em;
+}
+
+nav a {
+	color: black;
+	font-family: "Montserrat", sans-serif; 
+	font-size: 1.2em;
+	padding: 0 10px;
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+
+a:hover {
+    color: #45454C;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
