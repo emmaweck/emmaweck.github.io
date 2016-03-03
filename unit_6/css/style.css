@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: rgb(204, 204, 204);
+	font-size: 16px;
+	padding: 0 auto;
+}
+
+main {
+	width: 800px;
+	float: left;
+}
+h1 {
+	/*background-color: #FFED74;*/
+	color: black;
+	font-family: "Arial", sans-serif; 
+	font-size: 6.25em;
+	line-height: 90%;
+	/*margin: 25px;*/
+}
+#firstname {
+	font-family: "Satisfy"; 
+	font-size: 14.2em;
+	color: #45454C;
+	margin-top: 80px; 
+}
+
+#lastname {
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 5em;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 50%;
+	margin-top: 20px;
+}
+
+#tagline {
+	
+	/*background-color: #FFC675;*/
+	color: black;
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 1.3em;
+	padding: 3em 0 2em 0;
+	font-weight: 300;
+}
+
+hr {
+	border: none; 
+	height: .15em; 
+	background-color: #45454C;
+	width: 25em;
+	margin: 2em auto 4em auto; 
+}
+
+nav a {
+	/*background-color: #E8C66A;*/
+	color: black;
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	padding: 0 10px;
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+
+a:hover {
+    color: #45454C;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+aside {
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: .8em;
+	padding: 30px;
+	text-align: left;
+	background-color: white;
+	/*margin-top: 20px;*/
+	/*margin-bottom: 20px;*/
+	float: right;
+}
+
+#sectiontitle {
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 4em;
+	font-weight: 300;
+	padding: 30px;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+
+}
+#socialicons {
+	text-align: right;
+}
+ul {
+	list-style: none;
+	color: black;
+}
+footer {
+	background-color: white;
+	padding: 1em;
+	margin-top: 20px;
+	clear: both;
+}
+.fa-envelope-o, .fa-linkedin-square, .fa-instagram {
+	color: black;
+	/*background-color: black;*/
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
