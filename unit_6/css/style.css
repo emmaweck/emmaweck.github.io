@@ -105,21 +105,25 @@ aside {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	float: left;
-
 }
+
 #socialicons {
 	text-align: right;
+	color: black;
 }
+
 ul {
 	list-style: none;
 	color: black;
 }
+
 footer {
 	background-color: white;
 	padding: 1em;
 	margin-top: 20px;
 	clear: both;
 }
+
 .fa-envelope-o, .fa-linkedin-square, .fa-instagram {
 	color: black;
 	/*background-color: black;*/
@@ -129,10 +133,10 @@ footer {
 	display: block;
 	content: " ";
 	clear: both;
-
 	height: 0;
 	font-size: 0;
 	visibility; hidden;
+}
 
 #wrapper {
 	width: 1080px;
