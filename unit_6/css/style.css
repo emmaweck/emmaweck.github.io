@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
 
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -9,32 +9,32 @@
 body {
 	text-align: center;
 	font-family: "Lato", Lato, Arial, sans-serif;
-	background-color: rgb(204, 204, 204);
+	background-color: white;
 	font-size: 16px;
 	padding: 0 auto;
+	border: 15px #45454C solid;
 }
 
-main {
-	/*width: 800px;
-	float: left;*/
-}
+
 img {
-	width: 550px;
+	width: 900px;
 	padding: 0px;
+	margin: 0px;
+	position: center; 
 }
 
 .tagline {
-	/*background-color: #FFC675;*/
 	color: black;
+	text-align: center;
 	font-family: "Lato", Lato, Arial, sans-serif;
-	font-size: 1.3em;
-	/*padding: 3em 0 2em 0;*/
+	font-size: 1.5em;
 	font-weight: 500;
-
+	padding-top: 0px;
+}
 
 hr {
 	border: none; 
-	height: .15em; 
+	height: .25em; 
 	background-color: #45454C;
 	width: 25em;
 	margin: 2em auto 4em auto; 
@@ -46,8 +46,8 @@ nav a {
 	font-family: "Lato", Lato, Arial, sans-serif;
 	font-size: 1.2em;
 	font-weight: 500;
-	padding: 0 10px;
-	margin: 0 15px;
+	padding: 10px;
+	margin: 15px;
 	text-transform: uppercase;
 }
 
@@ -67,69 +67,53 @@ p {
 
 h4 {
 	font-family: "Lato", Lato, Arial, sans-serif;
-	font-size: .8em;
+	font-size: 16px;
+	font-weight: 300;
+	color: white;
+	text-align: justify;
+	background-color: #45454C;
 	padding: 30px;
-	text-align: left;
-	background-color: white;
-	/*margin-top: 20px;*/
-	/*margin-bottom: 20px;*/
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 600px;
 	float: right;
 }
 
 h2 {
 	font-family: "Lato", Lato, Arial, sans-serif;
-	font-size: 4em;
+	font-size: 2.9em;
 	font-weight: 300;
 	padding: 30px;
-	background-color: white;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
+	width: 300px;
+	text-align: center;
+	clear: both;
 	float: left;
+	text-transform: uppercase;
+	border: 15px #45454C solid;
 }
-.about, .work, .connect {
-	font-family: "Lato", Lato, Arial, sans-serif;
-	font-size: 4em;
-	font-weight: 300;
-	padding: 30px;
-	background-color: white;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	float: left;
+.workpics {
+	width: 200px;
+	padding-top: 5px;
+	margin: 0px;
+	float: right;
 }
-
-.socialicons {
-	text-align: right;
-	color: black;
-}
-
-ul {
-	list-style: none;
-	color: black;
-}
-
 footer {
 	background-color: white;
 	padding: 1em;
 	margin-top: 20px;
-	clear: both;
+	text-align: center;
+	clear:both;
 }
 
 .fa-envelope-o, .fa-linkedin-square, .fa-instagram, .fa-github {
 	color: black;
-	/*background-color: black;*/
-}
-
-.clearfix:after {
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-	visibility; hidden;
+	margin: 0px 10px;
 }
 
 .wrapper {
-	width: 1080px;
+	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 }
