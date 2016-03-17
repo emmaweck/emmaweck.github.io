@@ -34,12 +34,17 @@ nav a {
 	padding: 15px;
 	text-transform: uppercase;
 }
-a:hover {
-    color: #D64A00;}
+
 a:link {
-    text-decoration: none;}
+    text-decoration: none;
+    color: #fff;
+}
+
 a:visited {
     text-decoration: none;}
+
+a:hover {
+    color: #D64A00;}
 
 img {
 	width: 70%;
@@ -68,30 +73,19 @@ p {
 	width: 70%;
 	display: inline-block;}
 
-/*h2 {
-	font-family: "Lato", Lato, Arial, sans-serif;
-	font-size: 2.5em;
-	font-weight: 300;
-	text-transform: uppercase;
-	padding: 20px 0 10px 0;
-	text-align: center;
-	width: 30%;
-	display: inline-block;
-	clear: both;
-}
-*/
 h4 {
 	font-family: "Lato", Lato, Arial, sans-serif;
 	font-size: 1.1em;
 	font-weight: 300;
 	color: #D64A00;
 }
+
 .heading {
 	font-family: "Lato", Lato, Arial, sans-serif;
 	font-size: 2.5em;
 	font-weight: 300;
 	text-transform: uppercase;
-	padding: 20px 0 10px 0;
+	padding: 20px 0 20px 0;
 	text-align: center;
 }
 
@@ -106,13 +100,14 @@ h4 {
 	background-color: #C0C0C0;
 	color: white; 
 }
+
 .work {
 	background-color: #fff;
 }
+
 .contact {
 	background-color: #C0C0C0;
 	width: 100%;
-	clear: both;
 	display: inline-block;
 	text-align: center; 
 }
@@ -121,12 +116,6 @@ h4 {
 	padding: 30px;
 }
 
-/*.elogo {
-	width: 40%;
-	float: left;
-	padding-top: 40px;
-}
-*/
 .workpics {
 	width: 40%;
 	display: inline-block;
@@ -143,13 +132,18 @@ footer {
 	text-transform: uppercase;
 	background-color: #fff;
 }
+.footer
+{
+	color: #D64A00;
+	font-weight: 300;
+}
 .email {
 	text-transform: uppercase;
-	font-weight: 500; 
-	padding: 10px;
+	font-weight: 300; 
+	padding: 15px;
 	color: #fff;
 }
 .fa-linkedin-square, .fa-instagram, .fa-github {
-	padding: 15px;
+	padding: 30px;
 }
 
