@@ -19,6 +19,7 @@ body {
 
 .hero {
 	min-height: 100vh; 
+	text-align: center; 
 }
 
 nav {
@@ -34,7 +35,7 @@ nav a {
 	text-transform: uppercase;
 }
 a:hover {
-    color: #C0C0C0;}
+    color: #D64A00;}
 a:link {
     text-decoration: none;}
 a:visited {
@@ -47,20 +48,27 @@ img {
 	position: center; }
 
 .tagline {
-	color: black;
+	color: #D64A00;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "Lato", Lato, Arial, sans-serif;
 	font-size: 1.5em;
 	font-weight: 500;
-	padding-top: 0px;
-	padding-bottom: 20px;
+	padding: 0px 10px 30px 10px;
 }
 
 p {
-	margin: 15px;}
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	color: black;
+	text-align: justify;
+	padding: 10px;
+	padding-left: 0; 
+	width: 70%;
+	display: inline-block;}
 
-h2 {
+/*h2 {
 	font-family: "Lato", Lato, Arial, sans-serif;
 	font-size: 2.5em;
 	font-weight: 300;
@@ -71,55 +79,77 @@ h2 {
 	display: inline-block;
 	clear: both;
 }
-
+*/
 h4 {
 	font-family: "Lato", Lato, Arial, sans-serif;
 	font-size: 1.1em;
 	font-weight: 300;
-	color: black;
-	text-align: justify;
-	padding: 10px;
-	width: 70%;
-	display: inline-block;
+	color: #D64A00;
 }
+.heading {
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 2.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+
+
+.arrow {
+	text-align: center; 
+	padding: 10px; 
+	color: #45454C;
+	}
 
 .hello {
 	background-color: #C0C0C0;
-	clear: both;
+	color: white; 
 }
 .work {
-	clear: both; 
-	width: 70%;
-	display: inline-block;
+	background-color: #fff;
 }
 .contact {
 	background-color: #C0C0C0;
+	width: 100%;
 	clear: both;
+	display: inline-block;
+	text-align: center; 
+}
+
+.hello, .work, .contact {
+	padding: 30px;
+}
+
+/*.elogo {
+	width: 40%;
+	float: left;
+	padding-top: 40px;
+}
+*/
+.workpics {
+	width: 40%;
 	display: inline-block;
 }
 
-.profilepic {
-	width: 20%;
-	float: left;
-	padding: 10px;
-}
-.workpics {
-	width: 25%;
-	padding-top: 10px;
-	margin: 15px;
-	border: 1px #45454C solid;
-	padding: 0px;
-	float: right;
+.icons {
+	padding: 10px; 
 }
 
 footer {
-	padding-bottom: 1em;
-	margin-top: 20px;
+	padding: 1em;
 	text-align: center;
 	clear: both;
+	text-transform: uppercase;
+	background-color: #fff;
 }
-
-.fa-envelope-o, .fa-linkedin-square, .fa-instagram, .fa-github {
-	color: black;
-	margin: 0px 30px;}
+.email {
+	text-transform: uppercase;
+	font-weight: 500; 
+	padding: 10px;
+	color: #fff;
+}
+.fa-linkedin-square, .fa-instagram, .fa-github {
+	padding: 15px;
+}
 
