@@ -12,6 +12,7 @@ body {
 	background-color: white;
 	font-size: 16px;
 }
+
 .wrapper {
 	width: 100%;
 	margin: auto;
@@ -25,6 +26,7 @@ body {
 nav {
 	padding-top: 50px;
 }
+
 nav a {
 	color: black;
 	font-family: "Lato", Lato, Arial, sans-serif;
@@ -89,7 +91,6 @@ h4 {
 	text-align: center;
 }
 
-
 .arrow {
 	text-align: center; 
 	padding: 10px; 
@@ -132,18 +133,37 @@ footer {
 	text-transform: uppercase;
 	background-color: #fff;
 }
-.footer
-{
+
+.footer {
 	color: #D64A00;
 	font-weight: 300;
 }
+
 .email {
 	text-transform: uppercase;
 	font-weight: 300; 
 	padding: 15px;
 	color: #fff;
 }
+
 .fa-linkedin-square, .fa-instagram, .fa-github {
 	padding: 30px;
 }
 
+@media only screen and (max-width: 500px) {
+	nav a {
+		font-size: 1em;
+	}
+	.logo {
+		padding: 40px;
+	}
+	.tagline {
+		font-size: 1.2em;
+	}
+	p {
+		width: 95%;
+	}
+	.workpics {
+		width: 90%;
+	}
+}
